@@ -9,4 +9,5 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
-*.py linguist-language=php
+*.blade.php linguist-language=PHP
+
