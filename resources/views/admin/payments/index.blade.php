@@ -56,7 +56,10 @@
                                     Payment method
                                 </th>
                                 <th style="width: 15%" class="text-center">
-                                    Payment Status
+                                    Payment status
+                                </th>
+                                <th style="width: 15%" class="text-center">
+                                    Created at
                                 </th>
                             </tr>
                         </thead>
@@ -69,6 +72,7 @@
                                     <td class="text-center" style="width: 15%">{{ $value->content }}</td>
                                     <td class="text-center" style="width: 15%">{{ $value->card_type }}</td>
                                     <td class="text-center" style="width: 15%">{{ $value->status }}</td>
+                                    <td class="text-center" style="width: 15%">{{ $value->created_at }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
