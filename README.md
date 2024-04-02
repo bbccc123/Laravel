@@ -38,6 +38,7 @@ composer require barryvdh/laravel-dompdf
 php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
 composer require predis/predis
 npm i socket.io
+npm i socket.io ioredis
 ```
 
 ### Thông tin thẻ thánh toán test Vnpay:
